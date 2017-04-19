@@ -1,0 +1,49 @@
+#abuelo_uno {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+
+    .padre_uno {
+      width: 200px;
+      height: 200px;
+      background-color: purple;
+      top: 100px;
+      left: 100px;
+      bottom: 100px;
+      right: 100px;
+      position: relative;
+    }
+
+          .hijo_uno {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+          }
+
+#abuelo_dos {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  position: relative;
+  margin-top: 50px;
+}
+
+    .padre_dos {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+      top: 100px;
+      left: 100px;
+      bottom: 100px;
+      right: 100px;
+      position: absolute;
+    }
+
+          .hijo_dos {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            position: absolute;
+          }
